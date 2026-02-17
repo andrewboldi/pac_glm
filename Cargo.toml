@@ -1,0 +1,23 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/pac-math",
+    "crates/pac-render",
+    "crates/pac-window",
+    "crates/pac-game",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/anomaly/pac"
+
+[workspace.dependencies]
+wgpu = "23"
+winit = "0.30"
+glam = "0.29"
+bytemuck = "1.14"
+image = "0.25"
+serde = "1.0"
+serde_json = "1.0"

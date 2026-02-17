@@ -1,0 +1,7 @@
+.runtime/
+.claude/commands/
+.logs/
+
+/target/
+Cargo.lock
+**/*.rs.bk

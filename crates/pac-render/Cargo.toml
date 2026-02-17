@@ -1,0 +1,15 @@
+[package]
+name = "pac-render"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+wgpu.workspace = true
+glam.workspace = true
+bytemuck.workspace = true
+image.workspace = true
+pac-math = { path = "../pac-math" }
+
+[features]
+default = []
