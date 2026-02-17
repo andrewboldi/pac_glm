@@ -6,7 +6,6 @@ license.workspace = true
 
 [dependencies]
 glam.workspace = true
-bytemuck.workspace = true
 serde = { workspace = true, optional = true }
 
 [features]
