@@ -1,6 +1,8 @@
 .runtime/
 .claude/commands/
 .logs/
+.beads/
+.opencode/
 
 /target/
 Cargo.lock
