@@ -7,3 +7,6 @@ pub use winit;
 
 pub mod time;
 pub use time::{DeltaTime, FixedTimestep, FpsCounter};
+
+pub mod input;
+pub use input::{InputMap, InputState};
