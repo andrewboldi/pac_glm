@@ -1,3 +1,13 @@
+[package]
+name = "pac"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish = false
+
+[dependencies]
+pac-game = { path = "crates/pac-game" }
+
 [workspace]
 resolver = "2"
 members = [
