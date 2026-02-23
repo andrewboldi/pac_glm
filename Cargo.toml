@@ -1,3 +1,9 @@
+[package]
+name = "pac"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
 [workspace]
 resolver = "2"
 members = [
@@ -21,3 +27,6 @@ bytemuck = "1.14"
 image = "0.25"
 serde = "1.0"
 serde_json = "1.0"
+
+[dependencies]
+pac-game = { path = "crates/pac-game" }
